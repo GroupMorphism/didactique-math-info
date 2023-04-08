@@ -16,4 +16,3 @@ m.update(b" the spammish repetition")
 m.update(b"Nobody inspects the spammish repetition")
 
 #print(m.hexdigest())
-print('irenka is the best')
