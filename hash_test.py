@@ -4,15 +4,16 @@ import hashlib
 import hashlib
 
 m = hashlib.sha256()
+text = b"Irenka is the best"
 
-m.update(b"Nobody inspects")
+m.update(text)
 
-#print(m.hexdigest())
+print('Texte:'+str(text))
+print('Hash:'+m.hexdigest())
 
-m.update(b" the spammish repetition")
 
-#print(m.hexdigest())
 
-m.update(b"Nobody inspects the spammish repetition")
 
-#print(m.hexdigest())
+
+
+
